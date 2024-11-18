@@ -1,4 +1,3 @@
-#include "eccentricity.h"
 #include "globals.h"
 
 // Calculate standard deviation

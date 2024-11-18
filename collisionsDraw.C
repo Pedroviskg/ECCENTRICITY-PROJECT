@@ -8,7 +8,6 @@
 #include <TFile.h>
 #include <TTree.h>
 #include "globals.h"
-#include "eccentricity.h"
 
 using namespace std;
 
@@ -37,7 +36,7 @@ vec_1d linspace()
 }
 
 // Main code
-void collisionsDraw (int nucleons = 208, int sim = 3e3){
+void collisionsDraw (int nucleons = 208, int sim = 1e2){
     
     //linspace of the b parameter
     vec_1d b = linspace();

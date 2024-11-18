@@ -12,11 +12,17 @@ const Double_t
  	minDisSq 	= 0,          // fm^2
  	nucleons    = 208,
  	simulations = 1e6;
+ 
+
 
 // typedef's for avoiding using long type names
 typedef std::vector<Double_t>                           vec_1d;
 typedef std::vector<std::vector<Double_t>>              vec_2d;
 typedef std::vector<std::vector<std::vector<Double_t>>> vec_3d;
+
+// Necessary vectors. Stores the positions multiple simulations of the nucleons for each value of impact parameter
+vec_3d xPosSim, yPosSim;
+vec_1d b;
 
 // Functions
 
